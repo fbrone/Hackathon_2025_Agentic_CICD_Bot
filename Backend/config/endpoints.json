@@ -1,8 +1,0 @@
-{
-    "jenkins_url": "https://jenkins-csb-rhgsocs3x-ocs3xstage.dno.corp.redhat.com",
-    "jobs_endpoint": "/api/json?tree=jobs[name]",
-    "build_endpoint": "/job/{job_name}/buildWithParameters",
-    "last_build_summary": "/job/{job_name}/lastBuild/api/json",
-    "specific_build_summary": "/job/{job_name}/{build_number}/api/json",
-    "job_health": "/job/{job_name}/api/json"
-}
